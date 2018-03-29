@@ -1,0 +1,108 @@
+/*author: BridgetGyasi
+project: mya
+date: 5/3/18
+email: brigakyaa@gmail.com*/
+
+@import url('bootstrap.min.css');
+@import url('font-awesome.min.css');
+
+.carousel-wrapper{
+	width: 100%;
+	height: 400px;
+	float: left;
+}
+
+.services{
+	width: 100%;
+	height: 400px;
+	float: left;
+	
+}
+
+.img-holder{
+    width: 100%;
+	height: 400px;
+	float: left;
+	background-image: url("../img/backdrop (2).JPG");
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	opacity: 0.9;
+  filter: alpha
+  (opacity=90);
+  text-decoration-style: wavy;
+}
+
+.portfolio{
+	width: 94%;
+	height: 400px;
+	float: right;
+	align-items: center center;
+	align-self: center;
+}
+
+/* Create two equal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    justify-content: center center;
+    color: black;
+    text-align: center center;
+
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    justify-content: center center;
+    color: black;
+    text-align: center center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* this styles the background image in portfolio*/
+.port-img{
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	float: left;
+	align-items: center;
+}
+
+.social-media{
+	width: 100%;
+	padding: 40px 0;
+	float: left;
+}
+
+
+.social-media ul li{
+	margin: 5px 10px;
+}
+
+
+
+ul {
+	text-decoraton: none;
+	align-items: center;
+	display: inline-flex;
+	}
+
+li{
+	display: inline;
+	padding: 20px;
+	text-decoration: none;
+	align-content: center;
+	align-items: center;
+	}
+
+
